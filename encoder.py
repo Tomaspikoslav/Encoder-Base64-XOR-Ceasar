@@ -2,7 +2,6 @@ import base64 as bs
 import ansi_color as ac
 import string as st
 import os
-import time as tm
 
 ###T.M###
 
@@ -85,8 +84,6 @@ def XOR_decode():
 
 def service_error():
     print(f"{ac.red} Error : only input number of the service required {ac.res}")
-    tm.sleep(3)
-    os.system("cls")
     menu()
 
 def menu():
